@@ -69,9 +69,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>gCoin store</h1>
+                        <h1>gCoin 購物狂歡節</h1>
                         <h3>Shopping for homework</h3>
                         <hr class="intro-divider">
+                        <p class="lead">更新公告：QRcode全面升級，免輸入價錢，體驗一掃即購的快感。</p>
+                        
                     </div>
                 </div>
             </div>
@@ -93,7 +95,7 @@
                     <!--<hr class="section-heading-spacer">
                     -->
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Coke</h2>
+                    <h2 class="section-heading">Coke <span style="font-size: 20px; color: red;">"雙11優惠 免手續費"</span></h2>
                     <p class="lead">Classic, 330ml</p>
                     <p class="lead">$22 gCoin</p>
                     <div id="qrcode_coke"></div>
@@ -221,9 +223,9 @@
     <script type="text/javascript" src="js/qrcode.js"></script>
 
     <script type="text/javascript">
-        var coke_address = "1XAC4t8yBRjEmdnfTUAaQpJ9QYzqhchJN"
-        var doritos_address = "1LHXfT7AAa9nRHDdLNhjSgsDicWWw49fiD"
-        var tea_address = "1DVq76ZPt5gaFwpf4JtLBr1dvFdAXzKtHD"
+        var coke_address = "bitcoin:1XAC4t8yBRjEmdnfTUAaQpJ9QYzqhchJN?amount=21.79&color=2424"
+        var doritos_address = "bitcoin:1LHXfT7AAa9nRHDdLNhjSgsDicWWw49fiD?amount=22&color=2424"
+        var tea_address = "bitcoin:1DVq76ZPt5gaFwpf4JtLBr1dvFdAXzKtHD?amount=22&color=2424"
 
         new QRCode( document.getElementById("qrcode_coke"), {
             text: coke_address,
