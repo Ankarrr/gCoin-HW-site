@@ -49,13 +49,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#div_coke">Products</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
+                        <a href="#div_contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -87,7 +84,7 @@
 
     <!-- Page Content -->
 
-    <div class="content-section-a">
+    <div class="content-section-a" id="div_coke">
 
         <div class="container">
 
@@ -159,13 +156,20 @@
     </div>
     <!-- /.content-section-a -->
 
-    <div class="banner">
+    <div class="banner" id="div_contact">
 
         <div class="container">
 
             <div class="row">
                 <div class="col-lg-6">
-                    <h2>Connect the TAs :</h2>
+                    <ul class="list-inline">
+                        <li>
+                            <h2>Connect the TAs :</h2>
+                        </li>
+                        <li>
+                            <p class="lead">support@fountain-opennet.org</p>
+                        </li>
+                    </ul>
                 </div>
                 <div>
 
@@ -183,6 +187,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+                    <!--
                     <ul class="list-inline">
                         <li>
                             <a href="#home">Home</a>
@@ -200,6 +205,7 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
+                    -->
                     <p class="copyright text-muted small">Copyright &copy; Opennet org. 2014. All Rights Reserved</p>
                 </div>
             </div>
@@ -215,9 +221,9 @@
     <script type="text/javascript" src="js/qrcode.js"></script>
 
     <script type="text/javascript">
-        var coke_address = "fdsafdasfd"
-        var doritos_address = "fffdsfdsaf"
-        var tea_address = "fdsafdafff"
+        var coke_address = "1XAC4t8yBRjEmdnfTUAaQpJ9QYzqhchJN"
+        var doritos_address = "1LHXfT7AAa9nRHDdLNhjSgsDicWWw49fiD"
+        var tea_address = "1DVq76ZPt5gaFwpf4JtLBr1dvFdAXzKtHD"
 
         new QRCode( document.getElementById("qrcode_coke"), {
             text: coke_address,
